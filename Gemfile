@@ -11,6 +11,8 @@ gem "mongoid", "~> 5.0.0.beta"
 gem 'mimetype-fu', require: 'mimetype_fu'
 gem 'responders'
 
+gem "haml-rails", "~> 0.9"
+
 group :development, :test do
   gem "fabrication"
   gem "guard-rspec"
